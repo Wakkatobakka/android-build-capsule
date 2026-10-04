@@ -22,6 +22,15 @@ The Capsule grew out of trying to remove the handoff between an AI that knew wha
 
 ## Start here
 
+### Quick start
+
+1. Download the public release ZIP.
+2. Run `MAKE_CHAT_CAPSULE.bat`.
+3. Upload the generated chat runtime to a coding chat.
+4. Tell the chat to read `AI_START_HERE.txt` before it begins working.
+
+That is the basic path. The sections below explain what each step does, what is included, and the current limits of the public Capsule.
+
 On Windows, extract the public ZIP and double-click **MAKE_CHAT_CAPSULE.bat**.
 Read Google's SDK agreement. If you accept it, the maker downloads the pinned
 official API 35 platform and Linux Build Tools 35.0.0, verifies their SHA-256
