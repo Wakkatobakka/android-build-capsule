@@ -15,8 +15,9 @@
     "current_status": "Public Windows setup and generated-runtime source build confirmed; physical demo behavior remains untested.",
     "current_known_good": "Freshly extracted private runtime built the original demo from source; APK v1/v2/v3 signatures, alignment, SDK inventory and example project-script adapter passed. Thirteen unit checks passed. Original Capsule SHA-256 is unchanged. The owner Windows maker produced a runtime whose 11,331 SDK files verified and whose fresh demo build passed APK alignment and v1/v2/v3 signing verification.",
     "last_material_change": "Updated public release documentation and evidence after the owner Windows maker run; build code and official download pins unchanged.",
-    "current_objective": "Prepare the public GitHub preview with accurate setup/build evidence while keeping private Capsules separate.",
-    "recommended_next_move": "Read docs/PUBLIC_PATH_TEST.md; follow the GitHub upload plan. Record physical demo behavior separately when tested.",
+    "current_objective": "Maintain and validate the public Android Build Capsule preview now published on GitHub while keeping private Capsules separate.",
+
+"recommended_next_move": "Keep the public release synchronized with the current known-good repository state. Record physical demo behavior separately when tested, then expand additional Android build profiles deliberately.",
     "failed_attempts": [
       {
         "summary": "Android stubs as javac bootclasspath did not provide LambdaMetafactory.",
