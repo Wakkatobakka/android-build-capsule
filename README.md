@@ -1,3 +1,5 @@
+![WAKKA Android Build Capsule](WAKKA_Android_Build_Capsule_Social_Preview.jpg)
+
 # WAKKA Android Build Capsule — Public Core
 
 **Give chat hands.**
