@@ -1,5 +1,6 @@
-Give Chat Hands
-How the Android Build Capsule Happened
+# Give Chat Hands
+
+## How the Android Build Capsule Happened
 
 I wanted Ripple back.
 
@@ -101,7 +102,7 @@ I wanted my material back. Then I wanted to make more things. Then I wanted to k
 
 So we kept asking what was missing, and making something that could carry it.
 
-EPILOGUE — MAKING IT SHAREABLE (this apparently belongs at the end)
+## Epilogue — Making It Shareable (this apparently belongs at the end)
 
 The original Capsule was a personal working package, not something I could simply upload intact. It contained pieces whose licenses and redistribution terms made that inappropriate. When I decided to share the idea publicly, the problem changed: preserve the capability without redistributing material I shouldn’t.
 
@@ -110,7 +111,7 @@ The public edition therefore became a small bootstrap rather than a dump of my p
 In a weird way, that completed the original idea. The first Capsule was about removing the technical handoff for me. The public one asks whether the same machinery can remove it for someone else.
 
 
-EDITORIAL NOTES — PUBLIC v0.3
+## Editorial Notes — Public v0.3
 Prepared October 4, 2026. First-person wording is a proposed draft for Wakka's review, not a transcript.
 Edited by Wakka (cole) 10/4/26 @ 1009 adding an epilogue completing the signoff.
 
