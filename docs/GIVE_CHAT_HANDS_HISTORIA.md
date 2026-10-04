@@ -123,7 +123,7 @@ Discuss Player State (September 17–18, 2026; Capsule conceived September 18)
 Audit Efficiency Findings (September 19, 2026)
 Build Android Test Rig (September 20, 2026)
 Android APK Discussion (September 20, 2026)
-EL. SY. BUILDAROO.
+EL. PSY. BUILDROO
 
 Historical assistant reports of builds and tests are presented as records of what those chats reported. Earlier inspection of the supplied Capsule and companion preservation packages corroborated the saved build evidence and the browser-surrogate limitation. No new build or modification to the supplied tools was performed for this draft. All times above are America/Chicago.
 
