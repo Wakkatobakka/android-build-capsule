@@ -1,5 +1,7 @@
 # WAKKA Android Build Capsule — Public Core
 
+**Give chat hands.**
+
 Give a chat with code execution the Android build tools it needs, then direct,
 test and iterate on your app conversationally.
 
@@ -7,6 +9,14 @@ This first public candidate contains an MIT-licensed build runner, a Windows
 runtime maker, an original example app, component decisions, and Artifact
 Passport 0.7 context. It provides a clear preparation path without publishing
 the SDK bundle from the original private Capsule.
+
+## Why this exists
+
+This started as a simple question: **why can't we give chat the tools it keeps asking me to use?**
+
+The Capsule grew out of trying to remove the handoff between an AI that knew what needed to happen and the person who still had to perform every technical step manually.
+
+**[Read “Give Chat Hands — How the Android Build Capsule Happened”](docs/GIVE_CHAT_HANDS_HISTORIA.md)**
 
 ## Start here
 
