@@ -1,0 +1,19 @@
+
+# Private Android Build Capsule files
+.private/
+runtime/
+Private_Capsules/
+
+# Signing keys
+*.jks
+*.keystore
+
+# Local environment
+.env
+.env.*
+
+# Generated build files
+build/
+.gradle/
+__pycache__/
+*.pyc
