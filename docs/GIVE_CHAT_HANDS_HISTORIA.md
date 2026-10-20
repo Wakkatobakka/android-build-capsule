@@ -109,21 +109,3 @@ The original Capsule was a personal working package, not something I could simpl
 The public edition therefore became a small bootstrap rather than a dump of my private environment. It retrieves the official Android components, verifies them, constructs the local build environment, runs its own checks, and includes a known example path. That version is the one released publicly in October 2026.
 
 In a weird way, that completed the original idea. The first Capsule was about removing the technical handoff for me. The public one asks whether the same machinery can remove it for someone else.
-
-
-## Editorial Notes — Public v0.3
-Prepared October 4, 2026. First-person wording is a proposed draft for Wakka's review, not a transcript.
-Edited by Wakka (cole) 10/4/26 @ 1009 adding an epilogue completing the signoff.
-
-Early progression through HTML projects, initial APK work, WorkGPT discovery, usage-limit motivation, and the Python extractor episode draws on Wakka's recollections in this conversation. The exact extractor exchange remains unlocated. July 25 marks the recovery conversation's beginning, not the creation of Ripple itself; the recovery chat also references earlier material.
-
-Primary conversations consulted:
-EXCAVATION — Recovery & Navigator Construction (July 25–September 4, 2026)
-Discuss Player State (September 17–18, 2026; Capsule conceived September 18)
-Audit Efficiency Findings (September 19, 2026)
-Build Android Test Rig (September 20, 2026)
-Android APK Discussion (September 20, 2026)
-EL. PSY. BUILDROO
-
-Historical assistant reports of builds and tests are presented as records of what those chats reported. Earlier inspection of the supplied Capsule and companion preservation packages corroborated the saved build evidence and the browser-surrogate limitation. No new build or modification to the supplied tools was performed for this draft. All times above are America/Chicago.
-
