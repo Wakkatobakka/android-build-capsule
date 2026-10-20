@@ -20,6 +20,26 @@ The Capsule grew out of trying to remove the handoff between an AI that knew wha
 
 **[Read “Give Chat Hands — How the Android Build Capsule Happened”](docs/GIVE_CHAT_HANDS_HISTORIA.md)**
 
+## TL;DR — What it does and how to use it
+
+I made Android Build Capsule because I got tired of AI knowing how to build an Android app, but still needing me to manually handle all the technical steps.
+
+The idea is simple: give a compatible AI chat the actual Android build tools so it can build supported projects into APKs instead of just telling you how to do it.
+
+To get started:
+
+1. Download the public ZIP and extract it on Windows.
+2. Run "MAKE_CHAT_CAPSULE.bat". This downloads the required official Android SDK components after you accept Google's terms.
+3. Keep the runtime ZIP it creates.
+4. Upload that ZIP alongside your Android project files to an AI chat that supports code execution.
+5. Tell the AI to read "AI_START_HERE.txt" and help you build your app.
+
+That's basically how I work. I direct what I want, work through changes with AI, and test the resulting APKs on my own devices.
+
+It's not a replacement for Android Studio, and the public version doesn't support every type of Android project. The initial setup needs internet, but the completed runtime can build offline in a compatible environment.
+
+It's just my way of giving chat some actual tools instead of another list of instructions for me to follow lol.
+
 ## Start here
 
 ### Quick start
