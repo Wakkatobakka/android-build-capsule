@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 184" width="900" height="184" role="img" aria-label="Five steps: download the public ZIP, run MAKE_CHAT_CAPSULE.bat, keep the runtime ZIP, upload it with your project, tell the chat to read AI_START_HERE.txt">
+<title>Five steps: download the public ZIP, run MAKE_CHAT_CAPSULE.bat, keep the runtime ZIP, upload it with your project, tell the chat to read AI_START_HERE.txt</title>
+<style>
+text{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,'Liberation Mono',monospace}
+@media (prefers-reduced-motion:reduce){*{animation:none!important}}
+.flow{animation:flow 1s linear infinite}@keyframes flow{to{stroke-dashoffset:-14}}
+</style>
+<defs>
+<filter id="gl" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="sc" width="4" height="4" patternUnits="userSpaceOnUse"><rect width="4" height="1" fill="#fff" opacity=".03"/></pattern>
+</defs>
+<line x1="106.0" y1="84" x2="794.0" y2="84" stroke="#223140" stroke-width="8" stroke-linecap="round"/>
+<line class="flow" x1="106.0" y1="84" x2="794.0" y2="84" stroke="#4fd8f0" stroke-width="3" stroke-dasharray="6 8"/>
+<g transform="translate(106.0,84)" filter="url(#gl)"><animateMotion path="M0,0 L688,0" dur="7s" repeatCount="indefinite"/><path d="M0,-9 H-15 A9,9 0 0 0 -15,9 H0 Z" fill="#ffa23d"/><path d="M0,-9 H15 A9,9 0 0 1 15,9 H0 Z" fill="#4fd8f0"/><line x1="0" y1="-9" x2="0" y2="9" stroke="#0c1219" stroke-width="1.5"/></g>
+<rect x="31" y="28" width="150" height="112" rx="12" fill="#101a24" stroke="#223140" stroke-width="2"/>
+<text x="47" y="76" font-size="40" font-weight="700" fill="#ffa23d" filter="url(#gl)">1</text>
+<text x="47" y="104" font-size="16" font-weight="700" fill="#e6eef6">Download</text>
+<text x="47" y="124" font-size="10" fill="#7f93a8">the public ZIP</text>
+<rect x="203" y="28" width="150" height="112" rx="12" fill="#101a24" stroke="#223140" stroke-width="2"/>
+<text x="219" y="76" font-size="40" font-weight="700" fill="#ffa23d" filter="url(#gl)">2</text>
+<text x="219" y="104" font-size="16" font-weight="700" fill="#e6eef6">Run</text>
+<text x="219" y="124" font-size="10" fill="#7f93a8">MAKE_CHAT_CAPSULE.bat</text>
+<rect x="375" y="28" width="150" height="112" rx="12" fill="#101a24" stroke="#223140" stroke-width="2"/>
+<text x="391" y="76" font-size="40" font-weight="700" fill="#ffa23d" filter="url(#gl)">3</text>
+<text x="391" y="104" font-size="16" font-weight="700" fill="#e6eef6">Keep</text>
+<text x="391" y="124" font-size="10" fill="#7f93a8">the runtime ZIP</text>
+<rect x="547" y="28" width="150" height="112" rx="12" fill="#101a24" stroke="#223140" stroke-width="2"/>
+<text x="563" y="76" font-size="40" font-weight="700" fill="#ffa23d" filter="url(#gl)">4</text>
+<text x="563" y="104" font-size="16" font-weight="700" fill="#e6eef6">Upload</text>
+<text x="563" y="124" font-size="10" fill="#7f93a8">runtime + your project</text>
+<rect x="719" y="28" width="150" height="112" rx="12" fill="#101a24" stroke="#43e68a" stroke-width="2"/>
+<text x="735" y="76" font-size="40" font-weight="700" fill="#ffa23d" filter="url(#gl)">5</text>
+<text x="735" y="104" font-size="16" font-weight="700" fill="#e6eef6">Tell chat</text>
+<text x="735" y="124" font-size="10" fill="#7f93a8">read AI_START_HERE.txt</text>
+<text x="450" y="168" font-size="12" fill="#7f93a8" text-anchor="middle">Setup needs internet. The finished runtime builds offline in a compatible environment.</text>
+</svg>

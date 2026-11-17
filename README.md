@@ -1,4 +1,8 @@
-![WAKKA Android Build Capsule](WAKKA_Android_Build_Capsule_Social_Preview.jpg)
+<div align="center">
+
+<img src="readme-assets/banner.svg" alt="Android Build Capsule: a chat with code execution receives a capsule, builds with it, and hands back a signed APK" width="100%">
+
+</div>
 
 # WAKKA Android Build Capsule — Public Core
 
@@ -12,7 +16,9 @@ runtime maker, an original example app, component decisions, and Artifact
 Passport 0.7 context. It provides a clear preparation path without publishing
 the SDK bundle from the original private Capsule.
 
-## Why this exists
+<br>
+
+<img src="readme-assets/hdr-why.svg" alt="Why this exists. Why can't we give chat the tools it keeps asking me to use?" width="100%">
 
 This started as a simple question: **why can't we give chat the tools it keeps asking me to use?**
 
@@ -20,7 +26,7 @@ The Capsule grew out of trying to remove the handoff between an AI that knew wha
 
 **[Read “Give Chat Hands — How the Android Build Capsule Happened”](docs/GIVE_CHAT_HANDS_HISTORIA.md)**
 
-## TL;DR — What it does and how to use it
+### TL;DR — What it does and how to use it
 
 I made Android Build Capsule because I got tired of AI knowing how to build an Android app, but still needing me to manually handle all the technical steps.
 
@@ -40,7 +46,11 @@ It's not a replacement for Android Studio, and the public version doesn't suppor
 
 It's just my way of giving chat some actual tools instead of another list of instructions for me to follow lol.
 
-## Start here
+<br>
+
+<img src="readme-assets/hdr-start.svg" alt="Start here, 5 steps. Download, make the capsule, upload, tell chat to read AI_START_HERE.txt." width="100%">
+
+<img src="readme-assets/pipeline.svg" alt="Five steps: download the public ZIP, run MAKE_CHAT_CAPSULE.bat, keep the runtime ZIP, upload it with your project, tell the chat to read AI_START_HERE.txt" width="100%">
 
 ### Quick start
 
@@ -66,18 +76,20 @@ JDK 17+. The completed runtime builds offline; its setup downloads need internet
 The maker's downloads remain subject to Google's agreement and component
 licenses. The MIT license covers this project's own code and example.
 
-## What v0.1 does
+<br>
+
+<img src="readme-assets/hdr-does.svg" alt="What v0.1 does, tested on Linux x86_64. Plain Java and resources in, signed APK out." width="100%">
 
 | Capability | Status |
 | --- | --- |
-| Compile plain Java and Android resources into an APK | Implemented; example build tested on Linux x86_64 |
-| Include offline HTML assets and a native Java bridge | Example included; source built and signature-verified |
-| Align and sign; verify v1/v2/v3 signatures | Implemented and tested |
-| Reuse an owner-provided Capsule without rewriting it | Read-only SDK import; tested |
-| Supply this SDK to existing Bash project builders | Implemented; tested with the example preservation-style builder |
-| Make a runtime directly from official SDK archives | Owner Windows setup completed; its generated runtime was freshly extracted and built the demo from source |
-| Bundle Gradle, AGP, Wear/GMS caches, Kotlin, Compose or NDK | Not included in the first profile |
-| Prove device behavior automatically | Not established; no Android device/emulator run performed |
+| Compile plain Java and Android resources into an APK | ✅ Implemented; example build tested on Linux x86_64 |
+| Include offline HTML assets and a native Java bridge | ✅ Example included; source built and signature-verified |
+| Align and sign; verify v1/v2/v3 signatures | ✅ Implemented and tested |
+| Reuse an owner-provided Capsule without rewriting it | ✅ Read-only SDK import; tested |
+| Supply this SDK to existing Bash project builders | ✅ Implemented; tested with the example preservation-style builder |
+| Make a runtime directly from official SDK archives | ✅ Owner Windows setup completed; its generated runtime was freshly extracted and built the demo from source |
+| Bundle Gradle, AGP, Wear/GMS caches, Kotlin, Compose or NDK | ➖ Not included in the first profile |
+| Prove device behavior automatically | ⚠️ Not established; no Android device/emulator run performed |
 
 The original private Capsule remains a separate artifact. This first public
 profile is narrower than its full cached environment.
@@ -86,7 +98,9 @@ The public Windows setup-to-source-build route passed with the owner-generated
 runtime on October 4, 2026. See [the follow-up test receipt](docs/PUBLIC_PATH_TEST.md).
 Android device behavior is recorded separately and remains untested here.
 
-## Commands for the assistant or developer
+<br>
+
+<img src="readme-assets/hdr-commands.svg" alt="Commands, for the assistant or developer. verify-public, doctor, build. The output folder must be new." width="100%">
 
 Run from the extracted runtime folder:
 
@@ -119,7 +133,10 @@ Java compiles with `--release 8`; D8 handles bytecode for the chosen minimum
 API. External Java libraries and core-library desugaring are not implemented
 in this profile. Apps requiring them should use their own project builder.
 
-### Existing preservation projects
+<details>
+<summary><b>Existing preservation projects</b></summary>
+
+<br>
 
 ```bash
 python3 abc.py run-project --project /path/to/preserved-app \
@@ -132,7 +149,12 @@ and jar shims if their host launchers are absent but the JDK modules exist.
 Inspect the builder first. It still needs any project-specific dependencies,
 signing identity and checks. Script completion is not reported as device proof.
 
-### Existing private Capsule: no new download
+</details>
+
+<details>
+<summary><b>Existing private Capsule: no new download</b></summary>
+
+<br>
 
 Run from the verified public core, using the owner's existing Capsule ZIP:
 
@@ -146,7 +168,12 @@ into a separate runtime, and compares the original's SHA-256 before/after.
 It does not copy the old Gradle/Wear cache, Windows SDK, personal projects or
 signing directories. This resulting SDK ZIP is still private.
 
-### Direct setup on Linux
+</details>
+
+<details>
+<summary><b>Direct setup on Linux</b></summary>
+
+<br>
 
 Read [Google's SDK agreement](https://developer.android.com/studio/terms).
 Only the person doing setup may choose to accept it:
@@ -162,7 +189,11 @@ from official Google downloads and compared with Google's published SHA-1
 values on October 4, 2026. Files and notices are retained in the private SDK.
 No downloads execute an installer or change global Java or SDK settings.
 
-## Example app
+</details>
+
+<br>
+
+<img src="readme-assets/hdr-example.svg" alt="Example app, CapsuleDemo. An offline HTML page and a native Java counter. Tap the button." width="100%">
 
 `examples/CapsuleDemo` contains an original offline HTML page and a native Java
 counter. Tap its button: the native counter at the top should increment. Its
@@ -170,7 +201,9 @@ source, prebuilt test APK and build evidence are included. The APK has no
 internet permission and is a separate package from existing Wakka apps.
 Actual device behavior awaits a device run.
 
-## Public packaging
+<br>
+
+<img src="readme-assets/hdr-keys.svg" alt="Share the core, keep the keys. Generated SDK runtimes and signing keys never ship." width="100%">
 
 The public release is generated from an explicit allowlist and checksum
 manifest. Generated `.private/`, `runtime/`, and `Private_Capsules/` folders,
@@ -184,7 +217,9 @@ python3 tools/package_public.py --output /path/to/new-public-core.zip
 See `docs/COMPONENT_REVIEW.md`, `COMPONENT_AUDIT.json`, `VERIFICATION.json` and
 the Passport/Handoff for evidence, scope and remaining release checks.
 
-## Tests
+<br>
+
+<img src="readme-assets/hdr-tests.svg" alt="Tests, no SDK needed. ZIP traversal, license-consent gating, checksum validation." width="100%">
 
 ```bash
 python3 -m unittest discover -s tests -v
@@ -194,9 +229,11 @@ The tests cover ZIP traversal/symlinks, backslash normalization, invalid
 projects, license-consent gating, checksum validation and private-file
 exclusion. They need no SDK. Real APK build evidence is recorded separately.
 
-## License and credit
+<br>
 
-MIT, copyright 2026 Wakka, for this core, documentation and original example.
+**License and credit.** MIT, copyright 2026 Wakka, for this core, documentation and original example.
 SDK tools obtained during personal setup keep their own terms and notices.
 This project is independent of Google and OpenAI. It does not redistribute
 their SDKs or promise an unlimited or universally supported chat environment.
+
+<img src="readme-assets/footer.svg" alt="Give chat hands. A capsule splits open and light spills out." width="100%">
